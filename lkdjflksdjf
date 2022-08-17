@@ -1,0 +1,30 @@
+[33mcommit 875d092cf8bd863169e72e7a0f3339e6b8b49cc9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: af077b6 a6ff0a4
+Author: andysaktia <andysaktia@gmail.com>
+Date:   Tue Aug 16 18:47:04 2022 +0700
+
+    add feature A
+
+[33mcommit a6ff0a4bfc5ac3c30a5ff35c2f6380fd304c7ab9[m[33m ([m[1;32mfeatureA[m[33m)[m
+Author: andysaktia <andysaktia@gmail.com>
+Date:   Tue Aug 16 18:43:22 2022 +0700
+
+    add feature A
+
+[33mcommit af077b6006df5430fc69dd13ac0408528e311e49[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: andysaktia <andysaktia@gmail.com>
+Date:   Tue Aug 16 17:37:16 2022 +0700
+
+    edit index
+
+[33mcommit caeb3d50c72d563089ac506530d284aa33365b52[m
+Author: andysaktia <andysaktia@gmail.com>
+Date:   Tue Aug 16 17:26:42 2022 +0700
+
+    add folder day1 and index.html
+
+[33mcommit 15ba666df5754445399ddb3a13ee0cf49ce61cc5[m[33m ([m[1;32mdevelopment[m[33m)[m
+Author: andysaktia <andysaktia@gmail.com>
+Date:   Tue Aug 16 17:13:44 2022 +0700
+
+    add readme file
