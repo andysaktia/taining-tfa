@@ -61,7 +61,7 @@ public class Main {
                 System.out.println(k);
             }
         }
-        // Bilangan prima
+        // 4 Bilangan prima
         System.out.println("----bilangan prima----");
         int sisaBagi = 0;
         for (int x = 2; x < num; x++) {
@@ -73,6 +73,22 @@ public class Main {
             System.out.println("Bilangan Prima");
         } else {
             System.out.println("Bukan Bilangan Prima");
+        }
+
+        // 7 Play with asterik
+        System.out.println("----play with asterik----");
+        int b = 0;
+        for (int a = 1; a <= num; a++, b = 0) {
+            for (int s = 1; s <= num - a; s++) {
+                System.out.print("  ");
+            }
+
+            while (b != 2 * a - 1) {
+                System.out.print("* ");
+                b++;
+            }
+
+            System.out.println();
         }
     }
 }
