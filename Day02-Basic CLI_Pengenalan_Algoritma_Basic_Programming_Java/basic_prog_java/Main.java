@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
+        int num = scanner.nextInt();
 
         // Loop reverse
         String textLower = text.toLowerCase();
@@ -21,6 +22,7 @@ public class Main {
         }
 
         // 1 Cek vokal dan konsonan
+        System.out.println("----vokal dan konsonan----");
         int vocal = 0;
         int konsonan = 0;
 
@@ -36,6 +38,7 @@ public class Main {
         System.out.println("konsonan: " + konsonan);
 
         // 2 cek char x and o
+        System.out.println("----x dan o----");
         int sumX = 0;
         int sumO = 0;
         for (int m = 0; m < arr.length; m++) {
@@ -49,6 +52,27 @@ public class Main {
             System.out.println("True");
         } else {
             System.out.println("False");
+        }
+
+        // 3 faktor bilangan
+        System.out.println("----faktor bilangan----");
+        for (int k = 1; k <= num; k++) {
+            if (num % k == 0) {
+                System.out.println(k);
+            }
+        }
+        // Bilangan prima
+        System.out.println("----bilangan prima----");
+        int sisaBagi = 0;
+        for (int x = 2; x < num; x++) {
+            if (num % 2 == 0) {
+                sisaBagi++;
+            }
+        }
+        if (sisaBagi == 0) {
+            System.out.println("Bilangan Prima");
+        } else {
+            System.out.println("Bukan Bilangan Prima");
         }
     }
 }
