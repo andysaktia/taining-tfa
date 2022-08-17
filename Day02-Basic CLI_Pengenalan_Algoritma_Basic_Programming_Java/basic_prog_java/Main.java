@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Text reverse difference");
         }
 
-        // Cek vokal
+        // 1 Cek vokal dan konsonan
         int vocal = 0;
         int konsonan = 0;
 
@@ -35,5 +35,20 @@ public class Main {
         System.out.println("vocal: " + vocal);
         System.out.println("konsonan: " + konsonan);
 
+        // 2 cek char x and o
+        int sumX = 0;
+        int sumO = 0;
+        for (int m = 0; m < arr.length; m++) {
+            if (arr[m] == 'x') {
+                sumX++;
+            } else {
+                sumO++;
+            }
+        }
+        if (sumX == sumO) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
     }
 }
