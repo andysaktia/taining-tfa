@@ -26,5 +26,9 @@ public class Day3 {
 
         System.out.println(listOne);
 
+        // 2 cek num
+        // Input: “76523752”
+        // Output: [6, 3]
+
     }
 }
