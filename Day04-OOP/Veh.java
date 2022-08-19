@@ -36,7 +36,6 @@ class Vehicles {
 class Bikes extends Vehicles {
     public int wheel_count;
 
-    // @Override
     public void identify_myself(String n, Boolean e, int w) {
         super.name = n;
         super.with_engine = e;
