@@ -17,11 +17,11 @@ public class MemberController {
         return "Hello " + name;
     }
 
-    @GetMapping("/message/{id}")
+    @GetMapping("/v1/message/{id}")
     public String index(@PathVariable("id") int id){
         return "ID: " + id;
      }
-    @PostMapping("/message/")
+    @PostMapping("/v1/message/")
     public Member save(@RequestBody CreateMemberRequest request){
 //        System.out.println(request.getName());
         Member message = new Member();
