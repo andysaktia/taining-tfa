@@ -17,16 +17,16 @@ public class MemberController {
         return "Hello " + name;
     }
 
-    @GetMapping("/member/{id}")
+    @GetMapping("/message/{id}")
     public String index(@PathVariable("id") int id){
         return "ID: " + id;
      }
-    @PostMapping("/member/")
+    @PostMapping("/message/")
     public Member save(@RequestBody CreateMemberRequest request){
 //        System.out.println(request.getName());
-        Member member = new Member();
-        member.setName(request.getName());
-        Member createdMember = repo.save(member);
+        Member message = new Member();
+        message.setMessage(request.getMessage());
+        Member createdMember = repo.save(message);
         return createdMember;
 
 
